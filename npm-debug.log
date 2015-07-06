@@ -3,17 +3,17 @@
 2 info using npm@1.4.28
 3 info using node@v0.10.35
 4 verbose run-script [ 'prestart', 'start', 'poststart' ]
-5 info prestart recipes_app@0.0.0
-6 info start recipes_app@0.0.0
+5 info prestart recipes_app@0.0.1
+6 info start recipes_app@0.0.1
 7 verbose unsafe-perm in lifecycle true
-8 info recipes_app@0.0.0 Failed to exec start script
-9 error recipes_app@0.0.0 start: `node ./bin/www`
-9 error Exit status 8
-10 error Failed at the recipes_app@0.0.0 start script.
+8 info recipes_app@0.0.1 Failed to exec start script
+9 error recipes_app@0.0.1 start: `NODE_PATH=./config:./app/controllers  NODE_ENV=development ./node_modules/.bin/nodemon server.js`
+9 error Exit status 1
+10 error Failed at the recipes_app@0.0.1 start script.
 10 error This is most likely a problem with the recipes_app package,
 10 error not with npm itself.
 10 error Tell the author that this fails on your system:
-10 error     node ./bin/www
+10 error     NODE_PATH=./config:./app/controllers  NODE_ENV=development ./node_modules/.bin/nodemon server.js
 10 error You can get their info via:
 10 error     npm owner ls recipes_app
 10 error There is likely additional logging output above.
